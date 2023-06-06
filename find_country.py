@@ -4,7 +4,6 @@ from geopy.geocoders import Nominatim
 from openpyxl import load_workbook
 import requests
 
-
 def translate_country_name(country_name):
     if country_name == None:
         return "None"
